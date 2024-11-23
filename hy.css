@@ -1,0 +1,150 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    background-image: url("back.png");
+    background-position: center calc(0% - 115px);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    background-repeat: repeat-y;
+}
+
+
+   .menu  label{
+       font-size: 21px;
+       height:100px;
+       line-height: 60px;
+       width:300px;
+       cursor: pointer;
+       transition: .5s ease;
+       text-align: center;
+       transition: .5s ease;
+       font-size: 30px;
+       margin: 80px 0px 0px 50px;
+       color: white;
+   }
+   .menu  label:hover{
+       color:rgb(12, 12, 150);
+   }
+   input[type=checkbox]{
+       display:none;
+   }
+   
+   .menu nav{
+       position: absolute;
+           top:60px;
+           background-color: black;
+           width:0px;  
+           bottom:0px;
+           overflow:hidden;
+           box-shadow: 2px 5px 5px #000;
+           transition: .5s ease;      
+           
+   }
+   
+   .menu nav ul li a{
+       display: flex;
+       align-items: center;
+       font-size: 29px;
+       text-decoration: none;
+       text-transform: capitalize;
+       padding: 10px 30px;
+       height:80px;  
+       transition: .5 ease;
+       color: white;
+       padding-left: 600px;
+       /* text-align: center; */
+       border:none;
+       border-bottom: 1px solid  rgb(5, 5, 61);
+   }
+   .menu nav ul li a:hover{
+       background-color: rgb(5, 5, 61);
+       border-right:5px solid;
+       /* text-align: center; */
+   }
+   #toggle:checked ~ nav{
+       width:100%;
+       }
+   .menu p{
+       margin: -45px 0px 0px 100px;
+       font-size: 31px;
+       color: white;
+   }
+   #toggle:checked ~ .menu nav ul{
+       width:100%
+   }
+
+   .line{
+    border:1px solid;
+    margin: 30px 0px 0px 0px;
+    color:white;
+}
+.right{
+    float:right;
+    padding-right: 20px;
+    font-size: 21px;
+}
+.right a{
+    color:white;
+}
+.user{
+    font-size: 21px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    font-family: 'Oxanium', cursive; 
+    margin-left: 30px;   
+    margin-bottom: 17px;
+    color: white;
+}
+.container{
+    width:500px;
+    margin: 0px 10px 0px 300px;
+}
+
+
+table{
+     border:1px solid white;
+
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border:1px solid white;
+    color:white;
+  }
+  th, td {
+    padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+font-size: 20px;
+  }
+
+ table,td {
+  background-color: rgb(40, 40, 96);
+  }
+  table,th {
+    background-color:rgb(6, 6, 71);
+     }
+
+button{
+    background-color: rgb(6, 6, 71);
+    height:60px;
+    width:190px;
+    border: 1px solid;
+    border-radius: 10px;
+    color:white;
+    margin-left: 220px;
+    font-size: 21px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    
+}
