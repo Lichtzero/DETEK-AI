@@ -1,0 +1,8 @@
+{
+    "name": "DETEK-AI",
+    "description": "My PHP project on Heroku",
+    "require": {
+      "php": "^7.3"
+    }
+  }
+  
